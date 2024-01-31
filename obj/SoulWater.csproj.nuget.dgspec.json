@@ -1,0 +1,73 @@
+{
+  "format": 1,
+  "restore": {
+    "E:\\mydll\\重构\\SoulWater\\SoulWater.csproj": {}
+  },
+  "projects": {
+    "E:\\mydll\\重构\\SoulWater\\SoulWater.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\mydll\\重构\\SoulWater\\SoulWater.csproj",
+        "projectName": "SoulWater",
+        "projectPath": "E:\\mydll\\重构\\SoulWater\\SoulWater.csproj",
+        "packagesPath": "C:\\Users\\soulwater\\.nuget\\packages\\",
+        "outputPath": "E:\\mydll\\重构\\SoulWater\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\soulwater\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net472"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net472": {
+            "targetAlias": "net472",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net472": {
+          "targetAlias": "net472",
+          "dependencies": {
+            "AutoCAD.NET": {
+              "target": "Package",
+              "version": "[23.1.0, )"
+            },
+            "EPPlus": {
+              "target": "Package",
+              "version": "[7.0.5, )"
+            },
+            "Microsoft.CSharp": {
+              "target": "Package",
+              "version": "[4.7.0, )"
+            },
+            "Microsoft.Office.Interop.Excel": {
+              "target": "Package",
+              "version": "[15.0.4795.1001, )"
+            },
+            "System.Data.DataSetExtensions": {
+              "target": "Package",
+              "version": "[4.5.0, )"
+            },
+            "lunar-csharp": {
+              "target": "Package",
+              "version": "[1.5.7, )"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

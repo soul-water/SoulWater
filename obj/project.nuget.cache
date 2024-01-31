@@ -1,0 +1,21 @@
+{
+  "version": 2,
+  "dgSpecHash": "WzRZRVFiVGhT7o1qnGMNk+O2hi7DKt1niO7YK4nYh7aWAOICQZCPzoU0SDlslK7aDuOjbM66f4h0X5z8Ci04/Q==",
+  "success": true,
+  "projectFilePath": "E:\\mydll\\重构\\SoulWater\\SoulWater.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\soulwater\\.nuget\\packages\\autocad.net\\23.1.0\\autocad.net.23.1.0.nupkg.sha512",
+    "C:\\Users\\soulwater\\.nuget\\packages\\autocad.net.core\\23.1.0\\autocad.net.core.23.1.0.nupkg.sha512",
+    "C:\\Users\\soulwater\\.nuget\\packages\\autocad.net.model\\23.1.0\\autocad.net.model.23.1.0.nupkg.sha512",
+    "C:\\Users\\soulwater\\.nuget\\packages\\epplus\\7.0.5\\epplus.7.0.5.nupkg.sha512",
+    "C:\\Users\\soulwater\\.nuget\\packages\\epplus.interfaces\\6.1.1\\epplus.interfaces.6.1.1.nupkg.sha512",
+    "C:\\Users\\soulwater\\.nuget\\packages\\epplus.system.drawing\\6.1.1\\epplus.system.drawing.6.1.1.nupkg.sha512",
+    "C:\\Users\\soulwater\\.nuget\\packages\\lunar-csharp\\1.5.7\\lunar-csharp.1.5.7.nupkg.sha512",
+    "C:\\Users\\soulwater\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
+    "C:\\Users\\soulwater\\.nuget\\packages\\microsoft.io.recyclablememorystream\\1.4.1\\microsoft.io.recyclablememorystream.1.4.1.nupkg.sha512",
+    "C:\\Users\\soulwater\\.nuget\\packages\\microsoft.office.interop.excel\\15.0.4795.1001\\microsoft.office.interop.excel.15.0.4795.1001.nupkg.sha512",
+    "C:\\Users\\soulwater\\.nuget\\packages\\system.componentmodel.annotations\\5.0.0\\system.componentmodel.annotations.5.0.0.nupkg.sha512",
+    "C:\\Users\\soulwater\\.nuget\\packages\\system.data.datasetextensions\\4.5.0\\system.data.datasetextensions.4.5.0.nupkg.sha512"
+  ],
+  "logs": []
+}

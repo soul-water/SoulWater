@@ -1,0 +1,9 @@
+{
+  "profiles": {
+    "SoulWater": {
+      "commandName": "Project",
+      "workingDirectory": "E:\\software\\cad\\AutoCAD 2020",
+      "nativeDebugging": true
+    }
+  }
+}

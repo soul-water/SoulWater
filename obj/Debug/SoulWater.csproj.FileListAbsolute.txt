@@ -1,0 +1,6 @@
+E:\mydll\重构\SoulWater\bin\Debug\SoulWater.dll
+E:\mydll\重构\SoulWater\bin\Debug\SoulWater.pdb
+E:\mydll\重构\SoulWater\obj\Debug\SoulWater.csproj.AssemblyReference.cache
+E:\mydll\重构\SoulWater\obj\Debug\SoulWater.csproj.CoreCompileInputs.cache
+E:\mydll\重构\SoulWater\obj\Debug\SoulWater.dll
+E:\mydll\重构\SoulWater\obj\Debug\SoulWater.pdb
