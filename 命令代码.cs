@@ -1182,6 +1182,18 @@ namespace SoulWater
             }
             CAD.Ed.SetImpliedSelection(selectionSet);
         }
+        [CommandMethod("Tex2")]
+        public void Tex2()
+        {
+            if (!获取.GetEntity("文字", out DBText dbt)) return;
+            using (Transaction transaction = CAD.Tr)
+            {
+                dbt.ObjectId.GetObject(OpenMode.ForRead);
+                string str = dbt.TextString;
+                int i = 0;
+                i.print___NotePad(str);
+            }
+        }
         [CommandMethod("ELIST")]
         public void ELIST()
         {
@@ -1589,7 +1601,56 @@ namespace SoulWater
         [CommandMethod("O2")]
         public void O2()
         {
-            //if(!)
+            if(!获取.GetEntity("选择曲线",out Curve cur))
+            {
+                CAD.Ed.WriteMessage("不是曲线");
+                return;
+            }
+            if (!获取.GetPoint(out Point3d point,"获取方向点"))return;
+            //Point3d pt=cur.GetPointAtParameter(0.5);
+            //Vector3d vector = point - pt;
+            List<DBObjectCollection> collections = [];
+            List<DBObjectCollection> collections1 = [];
+            DBObjectCollection dBObject0= cur.GetOffsetCurves( 2.5);
+            DBObjectCollection dBObject1 = cur.GetOffsetCurves( 20);
+            DBObjectCollection dBObject2 = cur.GetOffsetCurves(-2.5);
+            DBObjectCollection dBObject3 = cur.GetOffsetCurves(-20);
+            if (dBObject0.Count != 0) 
+            collections.Add(dBObject0);
+            if (dBObject1.Count != 0) 
+            collections.Add(dBObject1); 
+            if (dBObject2.Count != 0)
+            collections1.Add(dBObject2); 
+            if (dBObject3.Count != 0) 
+            collections1.Add(dBObject3);
+            List<Curve> cuves = [];
+            List<Curve> cuves1 = [];
+
+            foreach (DBObjectCollection curve2 in collections)
+            {
+                foreach (Curve curve3 in curve2)
+                {
+                    cuves.Add(curve3);
+                }
+            }
+            foreach (DBObjectCollection curve2 in collections1)
+            {
+                foreach (Curve curve3 in curve2)
+                {
+                    cuves1.Add(curve3);
+                }
+            }
+            double d1= point.DistanceTo(cuves[0].GetClosestPointTo(point,true));
+            double d2= point.DistanceTo(cuves1[0].GetClosestPointTo(point, true));
+            if(d1 < d2)
+            {
+                cuves.AddEntityToModeSpace();
+            }
+            else
+            {
+                cuves1.AddEntityToModeSpace();
+            }
+           
         }
 
     }

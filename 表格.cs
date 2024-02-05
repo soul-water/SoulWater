@@ -1,88 +1,17 @@
-﻿using Autodesk.AutoCAD.DatabaseServices;
-using Autodesk.AutoCAD.Runtime;
-using OfficeOpenXml;
+﻿using Autodesk.AutoCAD.Runtime;
+using Microsoft.Office.Interop.Word;
 using System;
 using System.Collections.Generic;
-using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Excel = Microsoft.Office.Interop.Excel;
+using Exception = System.Exception;
 using Word = Microsoft.Office.Interop.Word;
 
-namespace SoulWater.幕墙
+namespace SoulWater
 {
-    internal class 目录
-    {
-
-        public static void Zml()
-        {
-            string name = "图名编号";
-            List<BlockReference> blocks= 选择.SelectAllEntities<BlockReference>();
-            if(blocks.Count == 0 ) { return; }
-            List<BlockReference> references = blocks.GetNameBlock(name);
-            if( references.Count == 0 ) { CAD.Ed.WriteMessage("没有对应块");return; }
-            foreach( BlockReference block in references )
-            {
-
-            }
-            List<List<string>> list =
-            [
-                new List<string>() { "A", "B", "C", "123" },
-                new List<string>() { "D", "E", "F" },
-                new List<string>() { "G", "H", },
-            ];
-
-            Epplus表格.WriteToExcel(list);
-
-        }
-
-
-
-
-    }
-    class Epplus表格
-    {
-        public static bool WriteToExcel(List<List<string>> strings)
-        {
-            if (strings is null)
-            {
-                return false;
-            }
-            int rowCount = strings.Count; // 获取行数
-            ExcelPackage.LicenseContext = LicenseContext.NonCommercial;//指明非商业应用
-            string sourceFile = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.Desktop), "浏览.xlsx");
-            //string sourceFile = @"C:\Users\EDUTH\Desktop\浏览.xlsx";
-            FileInfo newFile = new(sourceFile);
-            using (ExcelPackage package = new(newFile))
-            {
-                ExcelWorksheet worksheet;
-                if (newFile.Exists)
-                {
-                    worksheet = package.Workbook.Worksheets["目录"];
-                }
-                else
-                {
-                    worksheet = package.Workbook.Worksheets.Add("目录");
-                }
-                int startRow = worksheet.Dimension?.End.Row + 1 ?? 1;
-                //int l = 0;
-                for (int i = startRow,L=0; i < rowCount + startRow; i++, L++)
-                {
-                    List<string> rowValues = strings[L];
-                    for (int j = 0; j < rowValues.Count; j++)
-                    {
-                        worksheet.Cells[i, j + 1].Value = rowValues[j];
-                    }
-                }
-                package.Save();
-
-            }
-
-            return true;
-        }
-    }
-     class Mic表格
+    internal class 表格T
     {
         [CommandMethod("Exce")]
         public static void Exce()
@@ -181,8 +110,108 @@ namespace SoulWater.幕墙
             // variables to send in as arguments. You can send the values directly.
             wordApp.Selection.PasteSpecial(Link: true, DisplayAsIcon: true);
         }
+    }
+    internal class 表格
+    {
+        [CommandMethod("Extex")]
+        public static void Extex()
+        {
+            List<List<string>> list =
+            [
+                ["A", "B", "C", "A"],
+                ["D", "E", "F"],
+                ["G", "H",],
+            ];
+            输出到Excel(list);
+        }
 
+        [CommandMethod("Extex2")]
+        public static void Extex2()
+        {
+            List<List<string>> list =
+            [
+                ["1", "2", "3", "4"],
+                ["5", "6", "7"],
+                ["8", "9",],
+            ];
+            输出到打开的Excel(list);
+        }
+
+        /// <summary>
+        /// 判断是否打开了一个excel程序
+        /// </summary>
+        /// <returns></returns>
+        public static bool Ex是否打开()
+        {
+            try
+            {
+                Excel.Application excelApp = (Excel.Application)System.Runtime.InteropServices.Marshal.GetActiveObject("Excel.Application");
+            }
+            catch (Exception)
+            {
+                // 获取对象失败，表示Excel程序未打开
+                Console.WriteLine("Excel程序未打开。");
+                return false;
+            }
+            return true;
+
+        }
+        public static void 输出到Excel(List<List<String>> strings)
+        {
+            var excelApp = new Excel.Application
+            {
+                // Make the object visible.
+                Visible = true
+            };
+            excelApp.Workbooks.Add();
+
+            // This example uses a single workSheet. The explicit type casting is
+            // removed in a later procedure.
+            Excel._Worksheet workSheet = (Excel.Worksheet)excelApp.ActiveSheet;
+            // Establish column headings in cells A1 and B1.
+
+
+            //workSheet.Cells[1, "A"] = "ID Number";
+            //workSheet.Cells[1, "B"] = "Current Balance";
+            for (int i = 0; i < strings.Count; i++)
+            {
+                for (int j = 0; j < strings[i].Count; j++)
+                {
+                    workSheet.Cells[i + 1, j + 1] = strings[i][j];
+                }
+            }
+            workSheet.Columns.EntireColumn.AutoFit();
+        }
+        public static void 输出到打开的Excel(List<List<String>> strings)
+        {
+            if (!Ex是否打开())
+            {
+                CAD.Ed.WriteMessage("没打开excel");
+                return;
+            };
+            // 获取已经打开的 Excel 应用程序对象
+            Excel.Application excelApp = (Excel.Application)System.Runtime.InteropServices.Marshal.GetActiveObject("Excel.Application");
+
+            // 获取活动工作簿
+            Excel.Workbook workbook = excelApp.ActiveWorkbook;
+
+            // 选择要操作的工作表
+            Excel.Worksheet worksheet = (Excel.Worksheet)workbook.ActiveSheet;
+
+            // 获取已使用的区域
+            Excel.Range usedRange = worksheet.UsedRange;
+
+            int rowCount = usedRange.Rows.Count;
+            //int columnCount = usedRange.Columns.Count;
+            for (int i = 0; i < strings.Count; i++)
+            {
+                for (int j = 0; j < strings[i].Count; j++)
+                {
+                    worksheet.Cells[i + rowCount + 1, j + 1] = strings[i][j];
+                }
+            }
+            worksheet.Columns.EntireColumn.AutoFit();
+        }
 
     }
-
 }

@@ -9,6 +9,7 @@ using System.Threading.Tasks;
 [assembly: CommandClass(typeof(SoulWater.测试))]
 [assembly: CommandClass(typeof(SoulWater.矩形标注生成文字))]
 [assembly: CommandClass(typeof(SoulWater.筛选选择.筛选选择))]
+[assembly: CommandClass(typeof(SoulWater.表格))]
 //[assembly: CommandClass(typeof(SoulWater.王博))]
 //[assembly: CommandClass(typeof(SoulWater.王博.CADcommand))]
 namespace SoulWater

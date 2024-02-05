@@ -501,7 +501,10 @@ namespace SoulWater
         /// <returns></returns>
         public static List<Point3d> 求两个曲线交点(this Curve curve1, Curve curve2, Intersect intersect = Intersect.OnBothOperands)
         {
-
+            // Intersect.OnBothOperands：表示要求在两个实体对象上同时进行相交检测。
+            //Intersect.ExtendBoth：表示要求将两个实体对象进行延伸，并检测延伸后的部分是否相交。
+            //Intersect.ExtendThis：表示要求将当前实体对象进行延伸，并检测延伸后的部分与另一个实体对象是否相交。
+            //Intersect.ExtendOther：表示要求将另一个实体对象进行延伸，并检测延伸后的部分与当前实体对象是否相交。
             Point3dCollection pos = [];
             curve1.IntersectWith(curve2, intersect, pos, IntPtr.Zero, IntPtr.Zero);
             List<Point3d> points = new();

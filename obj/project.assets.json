@@ -153,7 +153,7 @@
           "lib/net462/EPPlus.System.Drawing.dll": {}
         }
       },
-      "lunar-csharp/1.5.7": {
+      "lunar-csharp/1.5.9": {
         "type": "package",
         "compile": {
           "lib/netstandard2.0/lunar.dll": {
@@ -198,6 +198,15 @@
         },
         "runtime": {
           "lib/net20/Microsoft.Office.Interop.Excel.dll": {}
+        }
+      },
+      "Microsoft.Office.Interop.Word/15.0.4797.1004": {
+        "type": "package",
+        "compile": {
+          "lib/net20/Microsoft.Office.Interop.Word.dll": {}
+        },
+        "runtime": {
+          "lib/net20/Microsoft.Office.Interop.Word.dll": {}
         }
       },
       "System.ComponentModel.Annotations/5.0.0": {
@@ -367,17 +376,18 @@
         "readme.md"
       ]
     },
-    "lunar-csharp/1.5.7": {
-      "sha512": "Zo41FrazSqUQPwB29uQWQ0GqnDpJzL0wYv6rYdNnuSwb1jPXFkafAmZigNx9yLxKZnzWwj7QSXC7KUAVZcgkhg==",
+    "lunar-csharp/1.5.9": {
+      "sha512": "JvjnvPoZbHQTpiRkWgfdYDMbnsOkxDDR9IAcO8INEyiUzQRN//1Er3er4/Eq7Vv4Y+otT8ohXIlDIntqwDmSGg==",
       "type": "package",
-      "path": "lunar-csharp/1.5.7",
+      "path": "lunar-csharp/1.5.9",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "lib/netstandard2.0/lunar.dll",
         "lib/netstandard2.0/lunar.xml",
-        "lunar-csharp.1.5.7.nupkg.sha512",
-        "lunar-csharp.nuspec"
+        "lunar-csharp.1.5.9.nupkg.sha512",
+        "lunar-csharp.nuspec",
+        "lunar.png"
       ]
     },
     "Microsoft.CSharp/4.7.0": {
@@ -485,6 +495,19 @@
         "lib/netstandard2.0/Microsoft.Office.Interop.Excel.dll",
         "microsoft.office.interop.excel.15.0.4795.1001.nupkg.sha512",
         "microsoft.office.interop.excel.nuspec"
+      ]
+    },
+    "Microsoft.Office.Interop.Word/15.0.4797.1004": {
+      "sha512": "lavTOrMGK/o/t3+gGr7JuVrL8XDdnS0DwPLcYv/StOiysXO4L0C36IXTVtEJo1Mh9Aoxo9a8dgGcPi+faTlv0g==",
+      "type": "package",
+      "path": "microsoft.office.interop.word/15.0.4797.1004",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net20/Microsoft.Office.Interop.Word.dll",
+        "lib/netstandard2.0/Microsoft.Office.Interop.Word.dll",
+        "microsoft.office.interop.word.15.0.4797.1004.nupkg.sha512",
+        "microsoft.office.interop.word.nuspec"
       ]
     },
     "System.ComponentModel.Annotations/5.0.0": {
@@ -603,8 +626,9 @@
       "EPPlus >= 7.0.5",
       "Microsoft.CSharp >= 4.7.0",
       "Microsoft.Office.Interop.Excel >= 15.0.4795.1001",
+      "Microsoft.Office.Interop.Word >= 15.0.4797.1004",
       "System.Data.DataSetExtensions >= 4.5.0",
-      "lunar-csharp >= 1.5.7"
+      "lunar-csharp >= 1.5.9"
     ]
   },
   "packageFolders": {
@@ -662,13 +686,17 @@
             "target": "Package",
             "version": "[15.0.4795.1001, )"
           },
+          "Microsoft.Office.Interop.Word": {
+            "target": "Package",
+            "version": "[15.0.4797.1004, )"
+          },
           "System.Data.DataSetExtensions": {
             "target": "Package",
             "version": "[4.5.0, )"
           },
           "lunar-csharp": {
             "target": "Package",
-            "version": "[1.5.7, )"
+            "version": "[1.5.9, )"
           }
         },
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101\\RuntimeIdentifierGraph.json"
