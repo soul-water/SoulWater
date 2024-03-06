@@ -1,0 +1,310 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\mydll\\\u91CD\u6784\\SoulWater\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{20F44F05-1FA6-431B-9ABE-1BAF2D996624}|SoulWater.csproj|e:\\mydll\\\u91CD\u6784\\soulwater\\\u52A0\u8F7D\u9879\u9009\u62E9.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{20F44F05-1FA6-431B-9ABE-1BAF2D996624}|SoulWater.csproj|solutionrelative:\u52A0\u8F7D\u9879\u9009\u62E9.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{20F44F05-1FA6-431B-9ABE-1BAF2D996624}|SoulWater.csproj|e:\\mydll\\\u91CD\u6784\\soulwater\\\u547D\u4EE4\u4EE3\u7801.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{20F44F05-1FA6-431B-9ABE-1BAF2D996624}|SoulWater.csproj|solutionrelative:\u547D\u4EE4\u4EE3\u7801.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{20F44F05-1FA6-431B-9ABE-1BAF2D996624}|SoulWater.csproj|e:\\mydll\\\u91CD\u6784\\soulwater\\\u5B66\u4E60\\\u9012\u5F52\u7C7B\u5B9E\u4F8B\uFF0C\u95ED\u5408\u7EBF\u7684\u5305\u542B\u5173\u7CFB.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{20F44F05-1FA6-431B-9ABE-1BAF2D996624}|SoulWater.csproj|solutionrelative:\u5B66\u4E60\\\u9012\u5F52\u7C7B\u5B9E\u4F8B\uFF0C\u95ED\u5408\u7EBF\u7684\u5305\u542B\u5173\u7CFB.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{20F44F05-1FA6-431B-9ABE-1BAF2D996624}|SoulWater.csproj|e:\\mydll\\\u91CD\u6784\\soulwater\\\u989C\u8272.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{20F44F05-1FA6-431B-9ABE-1BAF2D996624}|SoulWater.csproj|solutionrelative:\u989C\u8272.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{20F44F05-1FA6-431B-9ABE-1BAF2D996624}|SoulWater.csproj|e:\\mydll\\\u91CD\u6784\\soulwater\\cad\\\u5B9E\u4F53.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{20F44F05-1FA6-431B-9ABE-1BAF2D996624}|SoulWater.csproj|solutionrelative:cad\\\u5B9E\u4F53.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{20F44F05-1FA6-431B-9ABE-1BAF2D996624}|SoulWater.csproj|e:\\mydll\\\u91CD\u6784\\soulwater\\cad\\\u77E9\u5F62\u6807\u6CE8\u751F\u6210\u6587\u5B57.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{20F44F05-1FA6-431B-9ABE-1BAF2D996624}|SoulWater.csproj|solutionrelative:cad\\\u77E9\u5F62\u6807\u6CE8\u751F\u6210\u6587\u5B57.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{20F44F05-1FA6-431B-9ABE-1BAF2D996624}|SoulWater.csproj|e:\\mydll\\\u91CD\u6784\\soulwater\\\u5B66\u4E60\\\u5B66\u4E60.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{20F44F05-1FA6-431B-9ABE-1BAF2D996624}|SoulWater.csproj|solutionrelative:\u5B66\u4E60\\\u5B66\u4E60.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{20F44F05-1FA6-431B-9ABE-1BAF2D996624}|SoulWater.csproj|e:\\mydll\\\u91CD\u6784\\soulwater\\\u8868\u683C.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{20F44F05-1FA6-431B-9ABE-1BAF2D996624}|SoulWater.csproj|solutionrelative:\u8868\u683C.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{20F44F05-1FA6-431B-9ABE-1BAF2D996624}|SoulWater.csproj|e:\\mydll\\\u91CD\u6784\\soulwater\\\u5E55\u5899\\\u76EE\u5F55.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{20F44F05-1FA6-431B-9ABE-1BAF2D996624}|SoulWater.csproj|solutionrelative:\u5E55\u5899\\\u76EE\u5F55.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{20F44F05-1FA6-431B-9ABE-1BAF2D996624}|SoulWater.csproj|e:\\mydll\\\u91CD\u6784\\soulwater\\\u8C03\u8BD5.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{20F44F05-1FA6-431B-9ABE-1BAF2D996624}|SoulWater.csproj|solutionrelative:\u8C03\u8BD5.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{20F44F05-1FA6-431B-9ABE-1BAF2D996624}|SoulWater.csproj|e:\\mydll\\\u91CD\u6784\\soulwater\\cad\\\u7B5B\u9009\u9009\u62E9.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{20F44F05-1FA6-431B-9ABE-1BAF2D996624}|SoulWater.csproj|solutionrelative:cad\\\u7B5B\u9009\u9009\u62E9.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{20F44F05-1FA6-431B-9ABE-1BAF2D996624}|SoulWater.csproj|e:\\mydll\\\u91CD\u6784\\soulwater\\\u6570\u5B66.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{20F44F05-1FA6-431B-9ABE-1BAF2D996624}|SoulWater.csproj|solutionrelative:\u6570\u5B66.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{20F44F05-1FA6-431B-9ABE-1BAF2D996624}|SoulWater.csproj|e:\\mydll\\\u91CD\u6784\\soulwater\\\u4EA4\u4E92.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{20F44F05-1FA6-431B-9ABE-1BAF2D996624}|SoulWater.csproj|solutionrelative:\u4EA4\u4E92.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{20F44F05-1FA6-431B-9ABE-1BAF2D996624}|SoulWater.csproj|e:\\mydll\\\u91CD\u6784\\soulwater\\\u7CFB\u7EDF\u53D8\u91CF.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{20F44F05-1FA6-431B-9ABE-1BAF2D996624}|SoulWater.csproj|solutionrelative:\u7CFB\u7EDF\u53D8\u91CF.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{20F44F05-1FA6-431B-9ABE-1BAF2D996624}|SoulWater.csproj|e:\\mydll\\\u91CD\u6784\\soulwater\\cad\\\u5757\u8F6C\u56FE\u7247.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{20F44F05-1FA6-431B-9ABE-1BAF2D996624}|SoulWater.csproj|solutionrelative:cad\\\u5757\u8F6C\u56FE\u7247.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{20F44F05-1FA6-431B-9ABE-1BAF2D996624}|SoulWater.csproj|e:\\mydll\\\u91CD\u6784\\soulwater\\cad\\\u89C6\u56FE.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{20F44F05-1FA6-431B-9ABE-1BAF2D996624}|SoulWater.csproj|solutionrelative:cad\\\u89C6\u56FE.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{20F44F05-1FA6-431B-9ABE-1BAF2D996624}|SoulWater.csproj|e:\\mydll\\\u91CD\u6784\\soulwater\\\u5E55\u5899\\\u57CB\u4EF6.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{20F44F05-1FA6-431B-9ABE-1BAF2D996624}|SoulWater.csproj|solutionrelative:\u5E55\u5899\\\u57CB\u4EF6.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "\u76EE\u5F55.cs",
+              "DocumentMoniker": "E:\\mydll\\\u91CD\u6784\\SoulWater\\\u5E55\u5899\\\u76EE\u5F55.cs",
+              "RelativeDocumentMoniker": "\u5E55\u5899\\\u76EE\u5F55.cs",
+              "ToolTip": "E:\\mydll\\\u91CD\u6784\\SoulWater\\\u5E55\u5899\\\u76EE\u5F55.cs",
+              "RelativeToolTip": "\u5E55\u5899\\\u76EE\u5F55.cs",
+              "ViewState": "AQIAABwAAAAAAAAAAIBZwCEAAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-01-04T14:26:57.302Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "\u8C03\u8BD5.cs",
+              "DocumentMoniker": "E:\\mydll\\\u91CD\u6784\\SoulWater\\\u8C03\u8BD5.cs",
+              "RelativeDocumentMoniker": "\u8C03\u8BD5.cs",
+              "ToolTip": "E:\\mydll\\\u91CD\u6784\\SoulWater\\\u8C03\u8BD5.cs",
+              "RelativeToolTip": "\u8C03\u8BD5.cs",
+              "ViewState": "AQIAABsAAAAAAAAAAGBiwDUAAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-01-14T12:54:54.224Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "\u52A0\u8F7D\u9879\u9009\u62E9.cs",
+              "DocumentMoniker": "E:\\mydll\\\u91CD\u6784\\SoulWater\\\u52A0\u8F7D\u9879\u9009\u62E9.cs",
+              "RelativeDocumentMoniker": "\u52A0\u8F7D\u9879\u9009\u62E9.cs",
+              "ToolTip": "E:\\mydll\\\u91CD\u6784\\SoulWater\\\u52A0\u8F7D\u9879\u9009\u62E9.cs",
+              "RelativeToolTip": "\u52A0\u8F7D\u9879\u9009\u62E9.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-01-31T16:13:36.309Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "\u547D\u4EE4\u4EE3\u7801.cs",
+              "DocumentMoniker": "E:\\mydll\\\u91CD\u6784\\SoulWater\\\u547D\u4EE4\u4EE3\u7801.cs",
+              "RelativeDocumentMoniker": "\u547D\u4EE4\u4EE3\u7801.cs",
+              "ToolTip": "E:\\mydll\\\u91CD\u6784\\SoulWater\\\u547D\u4EE4\u4EE3\u7801.cs",
+              "RelativeToolTip": "\u547D\u4EE4\u4EE3\u7801.cs",
+              "ViewState": "AQIAADkAAAAAAAAAAIA1wJwAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-01-02T17:02:21.405Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{25f7e850-ffa1-11d0-b63f-00a0c922e851}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e506b91c-c606-466a-90a9-123d1d1e12b3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "\u989C\u8272.cs",
+              "DocumentMoniker": "E:\\mydll\\\u91CD\u6784\\SoulWater\\\u989C\u8272.cs",
+              "RelativeDocumentMoniker": "\u989C\u8272.cs",
+              "ToolTip": "E:\\mydll\\\u91CD\u6784\\SoulWater\\\u989C\u8272.cs",
+              "RelativeToolTip": "\u989C\u8272.cs",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAQwAsAAABNAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-05T16:42:36.554Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "\u9012\u5F52\u7C7B\u5B9E\u4F8B\uFF0C\u95ED\u5408\u7EBF\u7684\u5305\u542B\u5173\u7CFB.cs",
+              "DocumentMoniker": "E:\\mydll\\\u91CD\u6784\\SoulWater\\\u5B66\u4E60\\\u9012\u5F52\u7C7B\u5B9E\u4F8B\uFF0C\u95ED\u5408\u7EBF\u7684\u5305\u542B\u5173\u7CFB.cs",
+              "RelativeDocumentMoniker": "\u5B66\u4E60\\\u9012\u5F52\u7C7B\u5B9E\u4F8B\uFF0C\u95ED\u5408\u7EBF\u7684\u5305\u542B\u5173\u7CFB.cs",
+              "ToolTip": "E:\\mydll\\\u91CD\u6784\\SoulWater\\\u5B66\u4E60\\\u9012\u5F52\u7C7B\u5B9E\u4F8B\uFF0C\u95ED\u5408\u7EBF\u7684\u5305\u542B\u5173\u7CFB.cs",
+              "RelativeToolTip": "\u5B66\u4E60\\\u9012\u5F52\u7C7B\u5B9E\u4F8B\uFF0C\u95ED\u5408\u7EBF\u7684\u5305\u542B\u5173\u7CFB.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-05T15:31:42.224Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "\u8868\u683C.cs",
+              "DocumentMoniker": "E:\\mydll\\\u91CD\u6784\\SoulWater\\\u8868\u683C.cs",
+              "RelativeDocumentMoniker": "\u8868\u683C.cs",
+              "ToolTip": "E:\\mydll\\\u91CD\u6784\\SoulWater\\\u8868\u683C.cs",
+              "RelativeToolTip": "\u8868\u683C.cs",
+              "ViewState": "AQIAAFoAAAAAAAAAAAAxwFoAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-05T13:28:57.822Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "\u7B5B\u9009\u9009\u62E9.cs",
+              "DocumentMoniker": "E:\\mydll\\\u91CD\u6784\\SoulWater\\CAD\\\u7B5B\u9009\u9009\u62E9.cs",
+              "RelativeDocumentMoniker": "CAD\\\u7B5B\u9009\u9009\u62E9.cs",
+              "ToolTip": "E:\\mydll\\\u91CD\u6784\\SoulWater\\CAD\\\u7B5B\u9009\u9009\u62E9.cs",
+              "RelativeToolTip": "CAD\\\u7B5B\u9009\u9009\u62E9.cs",
+              "ViewState": "AQIAADIAAAAAAAAAAIBgwEAAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-01-31T15:53:47.674Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "\u77E9\u5F62\u6807\u6CE8\u751F\u6210\u6587\u5B57.cs",
+              "DocumentMoniker": "E:\\mydll\\\u91CD\u6784\\SoulWater\\CAD\\\u77E9\u5F62\u6807\u6CE8\u751F\u6210\u6587\u5B57.cs",
+              "RelativeDocumentMoniker": "CAD\\\u77E9\u5F62\u6807\u6CE8\u751F\u6210\u6587\u5B57.cs",
+              "ToolTip": "E:\\mydll\\\u91CD\u6784\\SoulWater\\CAD\\\u77E9\u5F62\u6807\u6CE8\u751F\u6210\u6587\u5B57.cs",
+              "RelativeToolTip": "CAD\\\u77E9\u5F62\u6807\u6CE8\u751F\u6210\u6587\u5B57.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAxwAgAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-01-30T14:59:38.402Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "\u5757\u8F6C\u56FE\u7247.cs",
+              "DocumentMoniker": "E:\\mydll\\\u91CD\u6784\\SoulWater\\CAD\\\u5757\u8F6C\u56FE\u7247.cs",
+              "RelativeDocumentMoniker": "CAD\\\u5757\u8F6C\u56FE\u7247.cs",
+              "ToolTip": "E:\\mydll\\\u91CD\u6784\\SoulWater\\CAD\\\u5757\u8F6C\u56FE\u7247.cs",
+              "RelativeToolTip": "CAD\\\u5757\u8F6C\u56FE\u7247.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAIBJwAkAAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-01-30T14:59:41.755Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "\u89C6\u56FE.cs",
+              "DocumentMoniker": "E:\\mydll\\\u91CD\u6784\\SoulWater\\CAD\\\u89C6\u56FE.cs",
+              "RelativeDocumentMoniker": "CAD\\\u89C6\u56FE.cs",
+              "ToolTip": "E:\\mydll\\\u91CD\u6784\\SoulWater\\CAD\\\u89C6\u56FE.cs",
+              "RelativeToolTip": "CAD\\\u89C6\u56FE.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAATAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-01-21T07:33:36.808Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "\u6570\u5B66.cs",
+              "DocumentMoniker": "E:\\mydll\\\u91CD\u6784\\SoulWater\\\u6570\u5B66.cs",
+              "RelativeDocumentMoniker": "\u6570\u5B66.cs",
+              "ToolTip": "E:\\mydll\\\u91CD\u6784\\SoulWater\\\u6570\u5B66.cs",
+              "RelativeToolTip": "\u6570\u5B66.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAxwAkAAAATAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-01-21T07:19:55.792Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "\u4EA4\u4E92.cs",
+              "DocumentMoniker": "E:\\mydll\\\u91CD\u6784\\SoulWater\\\u4EA4\u4E92.cs",
+              "RelativeDocumentMoniker": "\u4EA4\u4E92.cs",
+              "ToolTip": "E:\\mydll\\\u91CD\u6784\\SoulWater\\\u4EA4\u4E92.cs",
+              "RelativeToolTip": "\u4EA4\u4E92.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAIBZwAsAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-01-20T18:16:20.711Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "\u7CFB\u7EDF\u53D8\u91CF.cs",
+              "DocumentMoniker": "E:\\mydll\\\u91CD\u6784\\SoulWater\\\u7CFB\u7EDF\u53D8\u91CF.cs",
+              "RelativeDocumentMoniker": "\u7CFB\u7EDF\u53D8\u91CF.cs",
+              "ToolTip": "E:\\mydll\\\u91CD\u6784\\SoulWater\\\u7CFB\u7EDF\u53D8\u91CF.cs",
+              "RelativeToolTip": "\u7CFB\u7EDF\u53D8\u91CF.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAxwAsAAAATAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-01-15T14:37:26.219Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "\u5B9E\u4F53.cs",
+              "DocumentMoniker": "E:\\mydll\\\u91CD\u6784\\SoulWater\\CAD\\\u5B9E\u4F53.cs",
+              "RelativeDocumentMoniker": "CAD\\\u5B9E\u4F53.cs",
+              "ToolTip": "E:\\mydll\\\u91CD\u6784\\SoulWater\\CAD\\\u5B9E\u4F53.cs",
+              "RelativeToolTip": "CAD\\\u5B9E\u4F53.cs",
+              "ViewState": "AQIAAPgBAAAAAAAAAIBZwP0BAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-01-14T16:28:46.63Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "\u57CB\u4EF6.cs",
+              "DocumentMoniker": "E:\\mydll\\\u91CD\u6784\\SoulWater\\\u5E55\u5899\\\u57CB\u4EF6.cs",
+              "RelativeDocumentMoniker": "\u5E55\u5899\\\u57CB\u4EF6.cs",
+              "ToolTip": "E:\\mydll\\\u91CD\u6784\\SoulWater\\\u5E55\u5899\\\u57CB\u4EF6.cs",
+              "RelativeToolTip": "\u5E55\u5899\\\u57CB\u4EF6.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAwBsAAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-01-04T14:25:08.312Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "\u5B66\u4E60.cs",
+              "DocumentMoniker": "E:\\mydll\\\u91CD\u6784\\SoulWater\\\u5B66\u4E60\\\u5B66\u4E60.cs",
+              "RelativeDocumentMoniker": "\u5B66\u4E60\\\u5B66\u4E60.cs",
+              "ToolTip": "E:\\mydll\\\u91CD\u6784\\SoulWater\\\u5B66\u4E60\\\u5B66\u4E60.cs",
+              "RelativeToolTip": "\u5B66\u4E60\\\u5B66\u4E60.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAEBdwBUAAABFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-01-02T17:02:17.201Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

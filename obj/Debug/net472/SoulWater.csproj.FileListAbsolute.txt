@@ -16,7 +16,6 @@ E:\mydll\重构\SoulWater\bin\Debug\net472\acdbmgdbrep.dll
 E:\mydll\重构\SoulWater\obj\Debug\net472\SoulWater.csproj.AssemblyReference.cache
 E:\mydll\重构\SoulWater\obj\Debug\net472\SoulWater.GeneratedMSBuildEditorConfig.editorconfig
 E:\mydll\重构\SoulWater\obj\Debug\net472\SoulWater.csproj.CoreCompileInputs.cache
-E:\mydll\重构\SoulWater\obj\Debug\net472\SoulWater.csproj.CopyComplete
 E:\mydll\重构\SoulWater\obj\Debug\net472\SoulWater.dll
 E:\mydll\重构\SoulWater\obj\Debug\net472\SoulWater.pdb
 E:\mydll\重构\SoulWater\bin\Debug\net472\EPPlus.dll
@@ -29,3 +28,4 @@ E:\mydll\重构\SoulWater\bin\Debug\net472\Microsoft.Office.Interop.Excel.dll
 E:\mydll\重构\SoulWater\obj\Debug\net472\SoulWater.Properties.Resources.resources
 E:\mydll\重构\SoulWater\obj\Debug\net472\SoulWater.csproj.GenerateResource.cache
 E:\mydll\重构\SoulWater\bin\Debug\net472\Microsoft.Office.Interop.Word.dll
+E:\mydll\重构\SoulWater\obj\Debug\net472\SoulWater.csproj.Up2Date

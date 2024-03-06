@@ -100,38 +100,58 @@ namespace SoulWater
                 CAD.Ed.WriteMessage("点不在曲线上");
                 return;
             }
-            if (!获取.GetDouble(out double d,"输入偏移距离")) return;
-            
-            
+            if (!获取.GetDouble(out double d, "输入偏移距离")) return;
+
+
             double leng = entity.GetDistAtPoint(entity.EndPoint);
             double length = entity.GetDistAtPoint(pt1);
-            List<Point3d> points = [];
-            if ((length + d) < leng && (length - d) > 0)
+            List<Point3d> points =
+            [
+                pt1
+            ];
+            if (!获取.GetInt(out int d2, "输入偏移次数", d2 = 1)) return;
+
+            for (int i = 1; i <= d2; i++)
             {
-                Point3d point3D = entity.GetPointAtDist(length + d);
-                Point3d point3D2 = entity.GetPointAtDist(length - d);
-                points.Add(point3D);
-                points.Add(point3D2);
-            }else if ((length + d) >= leng && (length - d) > 0)
-            {
-                
-                Point3d point3D2 = entity.GetPointAtDist(length - d);
-                
-                points.Add(point3D2);
+                double d1 = d * i;
+                if ((length + d1) < leng && (length - d1) > 0)
+                {
+                    Point3d point3D = entity.GetPointAtDist(length + d1);
+                    Point3d point3D2 = entity.GetPointAtDist(length - d1);
+                    points.Add(point3D);
+                    points.Add(point3D2);
+                }
+                else if ((length + d1) >= leng && (length - d1) > 0)
+                {
+
+                    Point3d point3D2 = entity.GetPointAtDist(length - d1);
+
+                    points.Add(point3D2);
+                }
+                else if ((length + d1) < leng && (length - d1) <= 0)
+                {
+                    Point3d point3D = entity.GetPointAtDist(length + d1);
+
+                    points.Add(point3D);
+                }
+                else
+                {
+                    CAD.Ed.WriteMessage("超出曲线" + i.ToString());
+                }
             }
-            else if ((length + d) < leng && (length - d) <= 0)
-            {
-                Point3d point3D = entity.GetPointAtDist(length + d);
-                
-                points.Add(point3D);
-            }
-            else
-            {
-                CAD.Ed.WriteMessage("超出曲线");
-            }
+
             List<Circle> circles = [];
+            List<Line> lines = [];
             foreach (Point3d point3d in points)
             {
+                Vector3d vector3D = entity.GetFirstDerivative(point3d);
+                vector3D = new Vector3d(vector3D.Y, -vector3D.X, 0);
+                vector3D = vector3D.GetNormal() * leng / 10;
+                Line line = new()
+                {
+                    StartPoint = point3d + vector3D,
+                    EndPoint = point3d - vector3D
+                };
                 double 比例 = 系统变量.当标注比例;
                 if (比例 == 0) 比例 = 1;
                 Circle circle = new()
@@ -140,8 +160,10 @@ namespace SoulWater
                     Radius = 比例 * 3
                 };
                 circles.Add(circle);
+                lines.Add(line);
             }
             circles.AddEntityToModeSpace();
+            lines.AddEntityToModeSpace();
         }
         /// <summary>
         /// 将多段线的闭合属性改为是
@@ -540,6 +562,82 @@ namespace SoulWater
             };
             dBText1.AddEntityToModeSpace();
         }
+        [CommandMethod("QC")]
+        public void QC()
+        {
+            DBText dBText = new();
+            选择.OnlySelectEntities(dBText, out List<DBText> texts);
+            if (texts.Count == 0) return;
+            if (texts.Count != 2) return;
+            List<double> doubles = [];
+            double he = 0;
+            if (!获取.GetPoint(out Point3d point, "\n请输入一个点")) return;
+
+            foreach (DBText text2 in texts)
+            {
+                double result = 0;
+                try
+                {
+                    result = double.Parse(text2.TextString);
+                    CAD.Ed.WriteMessage("\n");
+                    //CAD.Ed.WriteMessage(result.ToString());
+                    doubles.Add(result);
+
+                }
+                catch (FormatException)
+                {
+                    CAD.Ed.WriteMessage("\n");
+                    CAD.Ed.WriteMessage($" '{text2.TextString}'不是数字");
+                }
+                he -= result;
+            }
+            he = doubles[0] - doubles[1];
+            if (!获取.GetInt(out int loor, "请输入要保留的位数", loor=2)) return;
+            he = Math.Round(he, loor);
+            DBText dBText1 = new()
+            {
+                TextString = he.ToString(),
+                Height = 系统变量.当标注比例 * 3,
+                Position = point,
+            };
+            dBText1.AddEntityToModeSpace();
+        }
+        [CommandMethod("QCC")]
+        public void QCC()
+        {
+            DBText dBText = new();
+            选择.OnlySelectEntities(dBText, out List<DBText> texts);
+            if (texts.Count == 0) return;
+            double he = 1;
+            if (!获取.GetPoint(out Point3d point, "\n请输入一个点")) return;
+            texts.Reverse();
+            foreach (DBText text2 in texts)
+            {
+                double result = 1;
+                try
+                {
+                    result = double.Parse(text2.TextString);
+                    CAD.Ed.WriteMessage("\n");
+                    //CAD.Ed.WriteMessage(result.ToString());
+
+                }
+                catch (FormatException)
+                {
+                    CAD.Ed.WriteMessage("\n");
+                    CAD.Ed.WriteMessage($" '{text2.TextString}'不是数字");
+                }
+                he = result / he;
+            }
+            if (!获取.GetInt(out int loor, "请输入要保留的位数", loor = 2)) return;
+            he = Math.Round(he, loor);
+            DBText dBText1 = new()
+            {
+                TextString = he.ToString(),
+                Height = 系统变量.当标注比例 * 3,
+                Position = point,
+            };
+            dBText1.AddEntityToModeSpace();
+        }
         /// <summary>
         /// 单行文求和(询问保留位数)
         /// </summary>
@@ -641,8 +739,9 @@ namespace SoulWater
                 he *= result;
             }
             if (!获取.GetInt(out int loor, "请输入要保留的位数")) return;
-            if (!获取.GetPoint(out Point3d point, "\n请输入一个点")) return;
             he = Math.Round(he, loor);
+            if (!获取.GetPoint(out Point3d point, "\n请输入一个点")) return;
+            
             DBText dBText1 = new DBText()
             {
                 TextString = he.ToString(),
